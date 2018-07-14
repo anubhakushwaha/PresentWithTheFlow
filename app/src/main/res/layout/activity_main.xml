@@ -1,0 +1,68 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="16dp"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/connecting"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:text="Connecting !!!!!"/>
+    <RelativeLayout
+        android:id="@+id/applayout"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:background="@android:color/white"
+            android:scaleType="fitCenter"
+            android:contentDescription="@null"/>
+
+        <LinearLayout
+            android:id="@+id/buttons"
+            style="?android:attr/buttonBarStyle"
+            android:layout_below="@+id/image"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:measureWithLargestChild="true"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/previous"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="PREVIOUS"
+                android:onClick="previous"/>
+
+            <Button
+                android:id="@+id/next"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="NEXT"
+                android:onClick="next"/>
+        </LinearLayout>
+
+        <Button
+        android:id="@+id/stop"
+            android:layout_below="@+id/buttons"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Stop Connection"
+        android:onClick="stop"/>
+
+        <Button
+            android:layout_below="@+id/stop"
+            android:id="@+id/present"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Present"
+            android:onClick="present"/>
+    </RelativeLayout>
+</LinearLayout>

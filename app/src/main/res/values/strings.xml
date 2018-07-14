@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">LeapHackathon</string>
+    <string name="app_name_with_index">LeapHackathon (%1$d/%2$d)</string>
+    <string name="service_id">Leap</string>
+    <string name="error_missing_string">Missing String</string>
+</resources>

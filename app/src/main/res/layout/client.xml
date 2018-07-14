@@ -1,0 +1,15 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="16dp"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/connectingClient"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:text="Connecting !!!!!"/>
+    <ImageView
+        android:id="@+id/imageClient"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>
