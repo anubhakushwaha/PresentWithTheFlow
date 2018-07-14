@@ -10,4 +10,4 @@ If you have ever faced any of the above problems, **PresentWithTheFlow** is what
 
 This app enables a **Presenter** and a **Viewer** view where the app completely works offline and allows the presenter to in-sync present the slides to their audience in real-time. This way as the presenter moves from one slide to any other slide, in real-time the slides of the attendees changes as well.
 
-[Watch video](https://drive.google.com/open?id=1ruQwl89URsB5YbVuSXC39940Au4_u6sJ)
+[Watch video](https://drive.google.com/file/d/1Pz7jLaCQXoSuI3fTbVoj8oKTh5cibell/view?usp=sharing)
